@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 	ini_set('memory_limit','512M');
 	error_reporting(E_ALL);
 	ini_set("display_errors", 0);
@@ -6,8 +6,9 @@
 	define('DB_PASSWORD','');
 	define('DB_NAME','');
 	define('DB_HOST','localhost');
-	$iConnection = mysqli_connect(MYSQL_DB_HOST,MYSQL_DB_USER,MYSQL_DB_PASSWORD);
+	$iConnection = mysqli_connect(DB_HOST,DB_USER,DB_PASSWORD);
 	mysqli_select_db($iConnection,DB_NAME);
+	mysqli_query($iConnection,"SET NAMES utf8");
 	switch($_REQUEST['command'])
 	{
 		case'filter_by_lang':
@@ -19,8 +20,8 @@
 			{
 				$aResults[] = $aRow;
 			}
-			$aJSONAnswer = json_encode($aResults);
-			header('Content-type: application/json');
+			$aJSONAnswer = json_encode($aResults,JSON_UNESCAPED_UNICODE);
+			header('Content-Type: application/json; charset=utf-8');
 			echo($aJSONAnswer);
 			exit();
 		break;
@@ -34,8 +35,8 @@
 			{
 				$aResults[] = $aRow;
 			}
-			$aJSONAnswer = json_encode($aResults);
-			header('Content-type: application/json');
+			$aJSONAnswer = json_encode($aResults,JSON_UNESCAPED_UNICODE);
+			header('Content-Type: application/json; charset=utf-8');
 			echo($aJSONAnswer);
 			exit();
 		break;
@@ -54,16 +55,16 @@
 					$aRow = mysqli_fetch_assoc($hRes);
 					$aResults[] = $aRow;
 				}
-				$aJSONAnswer = json_encode($aResults);
-				header('Content-type: application/json');
+				$aJSONAnswer = json_encode($aResults,JSON_UNESCAPED_UNICODE);
+				header('Content-Type: application/json; charset=utf-8');
 				echo($aJSONAnswer);
 				exit();
 			}
 			$sSQL = "SELECT * FROM yogi WHERE number='".(int)$iID."'";
 			$hRes = mysqli_query($iConnection,$sSQL);
 			$aRow = mysqli_fetch_assoc($hRes);
-			$aJSONAnswer = json_encode(isset($aRow['number'])?$aRow:array());
-			header('Content-type: application/json');
+			$aJSONAnswer = json_encode(isset($aRow['number'])?$aRow:array(),JSON_UNESCAPED_UNICODE);
+			header('Content-Type: application/json; charset=utf-8');
 			echo($aJSONAnswer);
 			exit();
 		break;
@@ -75,8 +76,8 @@
 			{
 				$aResults[] = $aRow;
 			}
-			$aJSONAnswer = json_encode($aResults);
-			header('Content-type: application/json');
+			$aJSONAnswer = json_encode($aResults,JSON_UNESCAPED_UNICODE);
+			header('Content-Type: application/json; charset=utf-8');
 			echo($aJSONAnswer);
 			exit();
 		break;
