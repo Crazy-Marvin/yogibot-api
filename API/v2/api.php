@@ -1,5 +1,7 @@
 ﻿<?php
 	header("Access-Control-Allow-Origin: *");
+	header('Access-Control-Allow-Methods: GET');
+	header("Access-Control-Allow-Headers: X-Requested-With");
 	ini_set('memory_limit','512M');
 	error_reporting(E_ALL);
 	ini_set("display_errors", 0);
