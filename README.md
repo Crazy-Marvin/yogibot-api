@@ -41,20 +41,20 @@ In the folder ```frontend``` is PHP script that can be used for administration l
 Those are the available clients:
 
 ### First party:
-* [yogibot-website](https://github.com/Crazy-Marvin/yogibot-website)
-* [yogibot-elm](https://github.com/Crazy-Marvin/yogibot-elm)
-* [yogibot-desktop](https://github.com/Crazy-Marvin/yogibot-desktop)
-* [yogibot-electron](https://github.com/Crazy-Marvin/yogibot-electron)
-* [yogibot-net](https://github.com/Crazy-Marvin/yogibot-net)
-* [yogibot-flutter](https://github.com/Crazy-Marvin/yogibot-flutter)
-* [yogibot-android](https://github.com/Crazy-Marvin/yogibot-android)
-* [yogibot-ios](https://github.com/Crazy-Marvin/yogibot-ios)
-* [yogibot-cli](https://github.com/Crazy-Marvin/yogibot-cli)
-* [yogibot-discord](https://github.com/Crazy-Marvin/yogibot-discord)
-* [yogibot-slack](https://github.com/Crazy-Marvin/yogibot-slack)
-* [yogibot-telegram](https://github.com/Crazy-Marvin/yogibot-telegram)
-* [yogibot-teams](https://github.com/Crazy-Marvin/yogibot-teams)
-* [yogibot-voice](https://github.com/Crazy-Marvin/yogibot-voice)
+* [yogibot-website](https://github.com/Crazy-Marvin/yogibot-website) ![Angular Logo](https://user-images.githubusercontent.com/15004217/105760815-92d01700-5f52-11eb-9e25-dcd15dc983a3.jpg)
+* [yogibot-elm](https://github.com/Crazy-Marvin/yogibot-elm) ![Elm Logo](https://user-images.githubusercontent.com/15004217/105759496-d6c21c80-5f50-11eb-86e4-4c56a638c775.jpg)
+* [yogibot-desktop](https://github.com/Crazy-Marvin/yogibot-desktop) ![Python Logo](https://user-images.githubusercontent.com/15004217/105759832-39b3b380-5f51-11eb-80fc-d57840a68b09.jpg)
+* [yogibot-electron](https://github.com/Crazy-Marvin/yogibot-electron) ![Electron logo](https://user-images.githubusercontent.com/15004217/105759283-8f3b9080-5f50-11eb-95b1-cda5710eeb77.jpg)
+* [yogibot-net](https://github.com/Crazy-Marvin/yogibot-net) ![.NET Core Logo](https://user-images.githubusercontent.com/15004217/105760818-9368ad80-5f52-11eb-91d2-8de644fd50d0.jpg)
+* [yogibot-flutter](https://github.com/Crazy-Marvin/yogibot-flutter) ![Flutter Logo](https://user-images.githubusercontent.com/15004217/105759836-3a4c4a00-5f51-11eb-95d4-363f292fcec1.jpg)
+* [yogibot-android](https://github.com/Crazy-Marvin/yogibot-android) ![Android logo](https://user-images.githubusercontent.com/15004217/105759123-5996a780-5f50-11eb-9385-56d5be696d60.jpg)
+* [yogibot-ios](https://github.com/Crazy-Marvin/yogibot-ios) ![swift-plain](https://user-images.githubusercontent.com/15004217/105760824-94014400-5f52-11eb-9539-7f889edf0c31.jpg)
+* [yogibot-cli](https://github.com/Crazy-Marvin/yogibot-cli) ![NodeJS Logo](https://user-images.githubusercontent.com/15004217/105759835-3a4c4a00-5f51-11eb-81e0-4e35684ff936.jpg)
+* [yogibot-discord](https://github.com/Crazy-Marvin/yogibot-discord) ![NodeJS Logo](https://user-images.githubusercontent.com/15004217/105759835-3a4c4a00-5f51-11eb-81e0-4e35684ff936.jpg)
+* [yogibot-slack](https://github.com/Crazy-Marvin/yogibot-slack) ![Slack Logo](https://user-images.githubusercontent.com/15004217/105760822-94014400-5f52-11eb-9dec-13ecb20f6aeb.jpg)
+* [yogibot-telegram](https://github.com/Crazy-Marvin/yogibot-telegram) ![PHP Logo](https://user-images.githubusercontent.com/15004217/105760821-9368ad80-5f52-11eb-9ee6-d0124e3c9e85.jpg)
+* [yogibot-teams](https://github.com/Crazy-Marvin/yogibot-teams) ![NodeJS Logo](https://user-images.githubusercontent.com/15004217/105759835-3a4c4a00-5f51-11eb-81e0-4e35684ff936.jpg)
+* [yogibot-voice](https://github.com/Crazy-Marvin/yogibot-voice) ![NodeJS Logo](https://user-images.githubusercontent.com/15004217/105759835-3a4c4a00-5f51-11eb-81e0-4e35684ff936.jpg)
 
 ### Third party:
 Please open a PR and add your repo (or URL if not open source) here
